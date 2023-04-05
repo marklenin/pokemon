@@ -1,0 +1,109 @@
+.modal {
+  /* width: 200px;
+  height: 350px; */
+  /* border: 2px solid red; */
+  display: none;
+  display: felx;
+}
+
+body {
+  padding: 0 5%;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 1em;
+}
+
+.every {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  color: transparent;
+  transition: 0.5s;
+}
+
+.every:hover {
+  color: black;
+}
+
+.twobtns {
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  right: 15%;
+  bottom: 5%;
+}
+
+.count {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 100%;
+  font-size: 25px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgba(0, 128, 0, 0.788);
+  color: white;
+}
+
+.poktext {
+  /* margin: 0 auto; */
+  text-align: center;
+}
+
+.eachChar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 150px;
+  position: relative;
+  width: 30%;
+  margin: 0 auto;
+  border: 2px solid gainsboro;
+  border-radius: 40px;
+  margin-top: 2em;
+}
+
+.eachChar button {
+  position: absolute;
+  right: -10%;
+  /* bottom: 10%; */
+  top: -10px;
+  cursor: pointer;
+  border: 1px solid red;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  height: 30px;
+  width: 30px;
+  transition: 0.2s;
+}
+
+.eachChar button:hover {
+  height: 35px;
+  width: 35px;
+}
+
+.information {
+  padding-right: 10%;
+}
